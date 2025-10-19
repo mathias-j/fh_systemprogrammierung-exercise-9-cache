@@ -36,7 +36,7 @@ int32_t adcGetVal(uint8_t channel)
     if(xSemaphoreTake(adcMutex, portMAX_DELAY))
     {
         // Simulate ADC conversion time
-        vTaskDelay(pdMS_TO_TICKS(20)); 
+        vTaskDelay(pdMS_TO_TICKS(20));
 
         // Generate simulated ADC value:
         // - Channel ID in upper bits for identification

@@ -7,14 +7,14 @@
  * multiple ADC channels and calculating performance metrics.
  */
 
-#include <stdio.h>
-#include <inttypes.h>
-#include "sdkconfig.h"
+#include "adc.h"
+#include "adcCache.h"
+#include "esp_timer.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-#include "adcCache.h"
-#include "adc.h"
-#include "esp_timer.h"
+#include "sdkconfig.h"
+#include <inttypes.h>
+#include <stdio.h>
 
 /**
  * @brief FreeRTOS task that continuously reads ADC values and measures performance
