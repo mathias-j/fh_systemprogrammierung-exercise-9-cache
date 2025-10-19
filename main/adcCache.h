@@ -3,6 +3,7 @@
 
 #include <stdint.h>
 
+/** @brief Number of ADC channels supported by the cache system */
 #define ADC_CACHE_NB_CHANNELS 10
 
 void adcCacheInit();
