@@ -1,7 +1,10 @@
 {
-"C_Cpp.intelliSenseEngine": "default",
-"idf.adapterTargetName": "esp32c3",
-"idf.openOcdConfigs": [
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.adapterTargetName": "esp32c3",
+  "idf.openOcdConfigs": [
     "board/esp32c3-builtin.cfg"
-]
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32c3"
+  },
 }
